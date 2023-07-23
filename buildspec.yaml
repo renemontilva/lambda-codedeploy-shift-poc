@@ -10,7 +10,6 @@ phases:
   post_build:
     commands:
       - echo Copying deployShift.yaml to root directory.
-      - cp deployShift.yaml . 
       - ls -la
 artifacts:
   files:
