@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependencies...
+  build:
+    commands:
+      - echo Building the code...
+  post_build:
+    commands:
+      - echo Copying deployShift.yaml to root directory.
+      - cp deployShift.yaml . 
+      - ls -la
+artifacts:
+  files:
+    - deployShift.yaml
