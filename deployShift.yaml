@@ -1,7 +1,7 @@
-applicationName: CodeployApp
+applicationName: shipping-api
 deployStrategies:
   - name: Normal
-    deploymentGroup: CanaryNormal
+    deploymentGroup: shipping-api-deployment-group
   - name: Fast
     deploymentGroup: CanaryFast
   - name: Slow
